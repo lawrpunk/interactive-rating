@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Frontend Mentor | Interactive rating component</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main>
+      <!-- Rating Container -->
+      <div class="rating-container">
+        <div class="container-item rating-icon-box">
+          <img class="rating-icon" src="images/star.png" alt="star" />
+        </div>
+        <div class="rating-header container-item">
+          <h1>How did we do?</h1>
+          <p>
+            Please let us know how we did with your support request. All
+            feedback is appreciated to help us improve our offering!
+          </p>
+        </div>
+        <div class="container-item rating-btn-box">
+          <a class="rating-btn" href="#">1</a>
+          <a class="rating-btn" href="#">2</a>
+          <a class="rating-btn" href="#">3</a>
+          <a class="rating-btn" href="#">4</a>
+          <a class="rating-btn" href="#">5</a>
+        </div>
+        <div class="container-item rating-submit-box">
+          <button class="submit-btn">SUBMIT</button>
+        </div>
+      </div>
+      <!-- Credits Container -->
+      <div class="credits-container hide">
+        <div class="container-item credits-icon-box">
+          <img class="checked-icon" src="images/checked.png" alt="checked" />
+        </div>
+        <div class="container-item credits-rating-box">
+          <p class="credits-rating"></p>
+        </div>
+        <div class="container-item credits-header">
+          <h1>Thank you!</h1>
+          <p>
+            We appreciate you taking the time to give a rating. If you ever need
+            more support, don't hesitate to get in touch!
+          </p>
+        </div>
+      </div>
+    </main>
+    <script src="main.js"></script>
+  </body>
+</html>
